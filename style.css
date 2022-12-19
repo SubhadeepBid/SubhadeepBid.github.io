@@ -371,8 +371,35 @@ header {
     padding: 20px 0px;
 }
 
-#git-live-btn {
+.git-live-btn {
     display: flex;
     gap: 40px;
     justify-content: center;
+    /* border: 1px solid red; */
+    height: 100px;
+    padding-top: 50px;
+}
+
+.git-live-btn > a {
+    text-decoration: none;
+    color: white;
+}
+
+.pro-img-div {
+    /* border: 1px solid red; */
+    height: 380px;
+}
+
+.pro-img-div > img {
+    width: 100%;
+}
+
+.pro-title-div {
+    /* border: 1px solid white; */
+    height: 100px;
+}
+
+.pro-desc-div {
+    /* border: 1px solid red; */
+    height: 150px;
 }
