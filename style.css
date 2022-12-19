@@ -432,23 +432,10 @@ header {
     color: white;
 }
 
-.pro-img-div {
-    /* border: 1px solid red; */
-    /* height: 380px; */
-}
+
 
 .pro-img-div > img {
     width: 100%;
-}
-
-.pro-title-div {
-    /* border: 1px solid white; */
-    /* height: 100px; */
-}
-
-.pro-desc-div {
-    /* border: 1px solid red; */
-    /* height: 150px; */
 }
 
 
