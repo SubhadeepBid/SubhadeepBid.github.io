@@ -416,6 +416,8 @@ header {
     background-color: #191919;
     border-radius: 50px;
     padding: 20px 0px;
+    width: 70%;
+    margin: auto;
 }
 
 .git-live-btn {
@@ -454,7 +456,11 @@ header {
     /* width: 200%; */
 }
 
-
+@media all and (min-width: 100px) and (max-width: 1280px) {
+    #project-child > div {
+        width: 100%;
+    }
+}
 
 
 
