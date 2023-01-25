@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/da2e110324.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Subhadeep Bid</title>
+
+
+
+     <!--==================== UNICONS ====================-->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+
+   <!--==================== SWIPER CSS ====================-->
+   <!-- <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" /> -->
 </head>
 <body>
 
 
     <!-- NAVBAR -->
 
-    <header>
+    <header style="position: fixed;">
         <div class="logo">Subhadeep</div>
         <div class="hamburger">
             <div class="line"></div>
@@ -39,7 +47,8 @@
                     <a href="#contact" >Contact</a>
                 </li>
                 <li>
-                    <a href="https://drive.google.com/file/d/1IdfbRsBAlCeRxA8C9fiwPXrMTglSdVGL/view?usp=sharing" >Resume</a>
+                    <a href="https://drive.google.com/uc?id=1IdfbRsBAlCeRxA8C9fiwPXrMTglSdVGL&authuser=0&export=download" 
+                    onclick="window.open('https://drive.google.com/file/d/1IdfbRsBAlCeRxA8C9fiwPXrMTglSdVGL/view?usp=sharing')">Resume</a>
                 </li>
             </ul>
         </nav>
@@ -55,7 +64,8 @@
             <h3 id="dev-title">I'm a Java Backend Developer.</h3>
         </h1>
 
-        <div id="res-btn-hom-top"><a href="https://drive.google.com/uc?id=1IdfbRsBAlCeRxA8C9fiwPXrMTglSdVGL&authuser=0&export=download">Resume</a></div>
+        <div id="res-btn-hom-top"><a href="https://drive.google.com/uc?id=1IdfbRsBAlCeRxA8C9fiwPXrMTglSdVGL&authuser=0&export=download" 
+            onclick="window.open('https://drive.google.com/file/d/1IdfbRsBAlCeRxA8C9fiwPXrMTglSdVGL/view?usp=sharing')">Resume</a></div>
 
         <!-- <div id="social_links">
             <div>
@@ -104,7 +114,7 @@
 
     <!-- SKILLS -->
 
-    <div id="skills">
+    <div id="skills" >
 
         <h1>Skills</h1>
 
@@ -153,6 +163,54 @@
             <div>
                 <img src="./Images/git.png" alt="">
                 <h2>GIT</h2>
+            </div>
+            <div style="border: none;">
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- TOOLS -->
+
+    <div id="skills">
+
+        <h1>Tools</h1>
+
+        <div id="skills-child">
+
+            <div>
+                <img width="150px" src="./Images/vs-code-2.png" alt="">
+                <h2>VS CODE</h2>
+            </div>
+            <div>
+                <img src="./Images/eclipse.svg" alt="">
+                <h2>ECLIPSE</h2>
+            </div>
+
+            <div>
+                <img src="./Images/sprintsuitetool.png" alt="">
+                <h2>SPRING TOOL SUITE</h2>
+            </div>
+    
+            <div>
+                <img src="./Images/post-man-2.png" alt="">
+                <h2>POSTMAN</h2>
+            </div>
+
+            <div id="invis" style="border: none;">
+                
+            </div>
+            <div>
+                <img src="./Images/maven.png" alt="">
+                <h2>MAVEN</h2>
+            </div>
+            
+            <div>
+                <img style="background-color: white;" src="./Images/git-hub.png" alt="">
+                <h2>GitHub</h2>
             </div>
             <div style="border: none;">
                 
@@ -314,7 +372,7 @@
     <div style="background-color: black; padding-top: 80px; padding-bottom: 30px;" id="contact">
         <h1>Contact Me</h1>
 
-        <div id="social_links">
+        <div id="social_links" style="text-align: center;">
             <div>
                 <a href="https://github.com/SubhadeepBid" target="_blank" rel="noopener noreferrer" aria-label="github">
                     <img src="./Images/github.png" alt="github">
@@ -341,8 +399,33 @@
 
         </div>
 
+        <!-- <p style="text-align: center; color: white; font-size: 30px;">+91 8918454546</p> -->
 
-        <p style="text-align: center; color: white; font-size: 30px;">+91 8918454546</p>
+        <div style="color: white; text-align: center;">
+            <div class="contact__information">
+                <i class="uil uil-phone contact__icon" style="font-size: 40px;"></i>
+                <div>
+                    <h3 class="contact__title">Call Me</h3>
+                    <span class="contact__subtitle">+91 8918454546</span>
+                </div>
+            </div>
+    
+            <div class="contact__information">
+                <i class="uil uil-envelope contact__icon" style="font-size: 40px;"></i>
+                <div>
+                    <h3 class="contact__title">Email</h3>
+                    <span class="contact__subtitle">subhadipbid@gmail.com</span>
+                </div>
+            </div>
+    
+            <div class="contact__information">
+                <i class="uil uil-location-pin-alt" style="font-size: 40px;"></i>
+                <div>
+                    <h3 class="contact__title">Location</h3>
+                    <span class="contact__subtitle">Bankura, West Bengal</span>
+                </div>
+            </div>
+        </div>
     
     </div>
     
