@@ -443,18 +443,123 @@ header {
 
 
 
-#git-stat-3 {
-    display: grid; 
-    /* justify-content: center;  */
-    /* align-items: center;  */
-    gap: 10px;
+/* #git-stat-3 {
+    margin-top: 20px;
+    border: 2px solid white;
+    width: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
-#git-stat-3 > img {
-    width: 70%; 
-    margin: auto;
-    /* width: 200%; */
+#git-stat-3 img {
+    width: 100%;
+} */
+
+
+
+#git-stat-3 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
+
+#git-con-1 > img {
+    height: 200px;
+    width: 500px;
+    margin-left: -5px;
+} 
+
+#git-con-2 > img {
+    height: 200px;
+    width: 500px;
+    margin-left: -50px;
+}
+
+#git-stat-3-new {
+    margin-top: 20px;
+}
+
+#git-con-3 > img {
+    height: 200px;
+}
+
+@media all and (min-width: 600px) and (max-width: 811px) {
+
+    #git-stat-3 {
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        align-items: center;
+    }
+
+    #git-con-1 > img {
+        height: 200px;
+        width: 400px;
+    } 
+    
+    #git-con-2 > img {
+        height: 200px;
+        width: 400px;
+        margin-left: 0px;
+    }
+    
+    #git-stat-3-new {
+        margin-top: -10px;
+    }
+
+    #git-con-3 > img {
+        height: 200px;
+        width: 400px;
+    }
+
+    
+}
+
+
+@media all and (min-width: 350px) and (max-width: 600px) {
+
+    #git-stat-3 {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    #git-con-1 > img {
+        height: 200px;
+        width: 300px;
+    } 
+    
+    #git-con-2 > img {
+        height: 200px;
+        width: 300px;
+        margin-left: 0px;
+        margin-top: -60px;
+    }
+
+    #git-stat-3-new {
+        margin-top: -70px;
+    }
+    
+    #git-con-3 > img {
+        height: 200px;
+        width: 300px;
+    }
+    
+}
+
+
+
+
+
 
 @media all and (min-width: 100px) and (max-width: 1280px) {
     #project-child > div {
